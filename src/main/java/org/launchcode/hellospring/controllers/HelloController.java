@@ -45,7 +45,7 @@ public class HelloController {
                 "<option value= 'Spanish'> Spanish </option>" +
                 "<option value= 'French'> French </option>" +
                 "<option value= 'German'> German </option>" +
-                "<option value= 'Korean'> Swedish </option>" +
+                "<option value= 'Swedish'> Swedish </option>" +
                 "<input type = 'submit' value = 'Greet Me!' >" +
                 "</form>" +
                 "</body>" +
