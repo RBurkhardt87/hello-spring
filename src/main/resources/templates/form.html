@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<!--signifies to IDE that it is a thymeleaf template. xml name space, let's other programs understand what the syntax-->
+<!--of the given file is. -->
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+</head>
+<body>
+<!--// submit a request to /hello-->
+    <form action = 'form/{name}' method = 'POST'>
+        <input type = 'text' name = 'name' >
+            <select name = 'language'>" +
+                <option value= 'English'> English </option>
+                <option value= 'Spanish'> Spanish </option>
+                <option value= 'French'> French </option>
+                <option value= 'German'> German </option>
+                <option value= 'Swedish'> Swedish </option>
+            </select>
+        <input type = 'submit' value = 'Greet Me!' >
+    </form>
+</body>
+</html>
+
+<!--This is showing us Static View in Templates-&#45;&#45; the data is not changing. The Form being displayed remains the same-->
